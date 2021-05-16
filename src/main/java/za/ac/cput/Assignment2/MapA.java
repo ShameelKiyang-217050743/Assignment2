@@ -30,4 +30,10 @@ public class MapA {
             maps.put(x,"num"+x);
         }
     }
+    public static void main(String[] args) {
+        MapA m = new MapA();
+        m.addToMap();
+        m.removeFromMap();
+        m.findInMap();
+    }
 }

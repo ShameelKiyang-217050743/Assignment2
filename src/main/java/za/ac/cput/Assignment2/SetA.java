@@ -23,7 +23,7 @@ public class SetA {
     }
     public void findInSet(){
 
-        System.out.println("is Object5 in the set?"+ sets.contains("Object5"));
+        System.out.println("is Object5 in the set? "+ sets.contains("Object5"));
 
     }
 
@@ -32,5 +32,11 @@ public class SetA {
             sets.add("Object"+x);
 
         }
+    }    public static void main(String[] args) {
+
+        SetA s = new SetA();
+        s.addToSet();
+        s.removeFromSet();
+        s.findInSet();
     }
 }

@@ -53,19 +53,3 @@ public class CollectionA {
 
 
 
-/**   public static void main(String[] args) {
- ListA l = new ListA();
- l.addToList();
- l.removeFromList();
- l.findInList();
-
- SetA s = new SetA();
- s.addToSet();
- s.removeFromSet();
- s.findInSet();
-
- MapA m = new MapA();
- m.addToMap();
- m.removeFromMap();
- m.findInMap();
- }*/

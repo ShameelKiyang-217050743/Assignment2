@@ -18,7 +18,7 @@ public class ListA {
     public void removeFromList(){
 
         lists.remove(0);
-        System.out.println(lists+" a single index has been removed");
+        System.out.println(lists+"- a single index has been removed");
     }
 
     public void findInList(){
@@ -31,7 +31,12 @@ public class ListA {
         }
     }
 
-
+    public static void main(String[] args) {
+        ListA l = new ListA();
+        l.addToList();
+        l.removeFromList();
+        l.findInList();
+    }
     }
 
 
